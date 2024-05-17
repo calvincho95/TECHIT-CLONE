@@ -2,7 +2,8 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: { colors: { "techit-gray": { 100: "#222222" } } },
+
     fontFamily: {
       pretendard: ["Pretendard"],
     },
