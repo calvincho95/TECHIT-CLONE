@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import TopBanner from "./components/TopBanner";
 import Header from "./components/Header";
-import SliderBanner from "./components/SlideBanner";
+import SlideBanner from "./components/SlideBanner";
 
 const App = () => {
   const [isViewed, setIsViewed] = useState(false);
@@ -18,7 +18,7 @@ const App = () => {
     <div className="font-pretendard">
       {!isViewed && <TopBanner setIsViewed={setIsViewed} />}
       <Header />
-      <SliderBanner />
+      <SlideBanner />
     </div>
   );
 };
