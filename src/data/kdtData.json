@@ -1,6 +1,3 @@
-import kdtData from "../data/kdtData.json";
-
-
 [
   {
     "title": "앱 스쿨: iOS",

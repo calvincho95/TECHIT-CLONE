@@ -1,4 +1,4 @@
-import CLD from "/images/techit_CLD01_keyvisual(1).webp";
+import CLD from "/images/techit_CLD01_keyvisual1.webp";
 
 const TopBanner = ({ setIsViewed }) => {
   const onClickClose = () => {
